@@ -19,7 +19,6 @@ resource "aws_s3_bucket" "app" {
   website {
     index_document = "index.html"
   }
-
   tags = local.tags
 }
 
